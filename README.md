@@ -68,18 +68,10 @@ This guide walks you through performing a basic packet analysis on your personal
   - Schedule periodic captures to monitor network health over time.
   - Use Wireshark’s "Statistics" menu for detailed traffic analysis.
 
-### Repository Contents
-
-- `README.md`: This guide with packet analysis steps.
-- `captures/`: Sample `.pcap` files (anonymized) for reference (if included).
-
 ### Contributing
 
 - Suggestions for additional protocols or analysis techniques are welcome! Open an issue or submit a pull request.
 - Please anonymize any shared `.pcap` files to protect privacy.
 
-### License
-
-This project is licensed under the [MIT License](LICENSE).
 
 > **Disclaimer**: This guide is for educational purposes only. Capture traffic with proper authorization to comply with legal and ethical standards.
