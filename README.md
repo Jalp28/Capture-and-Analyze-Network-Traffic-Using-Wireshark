@@ -27,7 +27,7 @@ This guide walks you through performing a basic packet analysis on your personal
      - Type `http` to view HTTP traffic.
      - Type `dns` to view DNS queries.
      - Type `tcp` to view TCP packets.
-     - Type 'icmp' to view ICMP packets.
+     - Type `icmp` to view ICMP packets.
    - Apply the filter and press Enter to narrow down the packet list.
 
 6. **Identify at Least 3 Different Protocols in the Capture**:
