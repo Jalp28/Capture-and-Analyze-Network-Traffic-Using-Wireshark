@@ -41,7 +41,7 @@ This guide walks you through performing a basic packet analysis on your personal
 7. **Export the Capture as a .pcap File**:
    - Go to `File > Save As` in Wireshark.
    - Choose a location, name the file (e.g., `network_capture.pcap`), and save it as a `.pcap` file.
-   - This file can be reopened later for further analysis or shared (anonymized) for reference.
+   - This file can be reopened later for further analysis or shared (anonymized) for reference here I uploaded mine for reference.
 
 8. **Summarize Your Findings and Packet Details**:
    - Review the capture and note key observations:
