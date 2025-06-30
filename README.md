@@ -27,6 +27,7 @@ This guide walks you through performing a basic packet analysis on your personal
      - Type `http` to view HTTP traffic.
      - Type `dns` to view DNS queries.
      - Type `tcp` to view TCP packets.
+     - Type 'icmp' to view ICMP packets.
    - Apply the filter and press Enter to narrow down the packet list.
 
 6. **Identify at Least 3 Different Protocols in the Capture**:
@@ -34,6 +35,7 @@ This guide walks you through performing a basic packet analysis on your personal
      - **HTTP**: Web browsing traffic (e.g., packets to/from port 80).
      - **DNS**: Domain name resolution (e.g., packets to/from port 53).
      - **TCP**: Transmission control protocol (e.g., handshake packets on various ports).
+     - **ICMP**: Ping and network diagnostic traffic (e.g., Echo Request/Reply packets to/from destinations like 8.8.8.8).
    - Right-click a packet, select "Protocol Hierarchy," and review the statistics for confirmation.
 
 7. **Export the Capture as a .pcap File**:
