@@ -45,9 +45,10 @@ This guide walks you through performing a basic packet analysis on your personal
 
 8. **Summarize Your Findings and Packet Details**:
    - Review the capture and note key observations:
-     - **HTTP**: Requests to `example.com` with GET methods, showing webpage loading.
-     - **DNS**: Queries to resolve `example.com` to an IP (e.g., 93.184.216.34), indicating name resolution.
+     - **HTTP**: Requests to `google.com` with GET methods, showing webpage loading.
+     - **DNS**: Queries to resolve `google.com` to an IP (e.g., 93.184.216.34), indicating name resolution.
      - **TCP**: Handshake packets (SYN, SYN-ACK, ACK) on ports like 80 or 443, ensuring reliable data transfer.
+     - **ICMP**: Echo Request and Echo Reply packets to/from 8.8.8.8, indicating successful ping operations for network diagnostics.
    - Example Summary: Captured 500 packets, including 100 HTTP requests, 20 DNS queries, and 300 TCP packets over 1 minute.
 
 ### Additional Guidelines and Best Practices
